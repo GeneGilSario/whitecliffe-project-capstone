@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  /* display: flex; */
+  max-width: 12rem;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+.logo {
+  font-weight: 600;
+  font-size: 3rem;
+  margin-left: 0;
+  margin-top: 3rem;
+  color: #324531;
+}
+
+.nav {
+  background-color: #555;
+  padding: 10px;
+}
+
+.rightLinks {
+  list-style-type: none;
+  padding: 0rem 2rem 2rem 2rem;
+  margin: 0;
+}
+
+.rightLinkItems {
+  color: Black;
+  margin-bottom: 0.75rem;
+  /* display: inline-block; */
+}
+
+/***********************************************/
+
+footer {
+  background-color: #324531;
+  color: white;
+  /* position: fixed;
+  bottom: 0; */
+  width: 100%;
+}
+
+.footer-header {
+  padding-top: 1rem;
+}
+.footer-text {
+  margin: 0.5rem;
+  display: inline-block;
+  font-size: small;
+}
+
+/***********************************************/
+
+.homepage-container {
+  margin-bottom: 6rem;
+}
+
+.homepage-header {
+  font-weight: 600;
+  padding: 0rem 1.75rem 0rem 1.75rem;
+  letter-spacing: -0.18rem;
+  word-spacing: 0.75rem;
+}
+
+.homepage-text {
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0rem 1.75rem 0rem 1.75rem;
+  margin-bottom: 5rem;
+  line-height: 1.75rem;
+}
+
+.homepage-textcolour {
+  color: #60825d;
+}
+
+.homepage-textcolour-contrast {
+  color: #324531;
+}
+
+button {
+  background-color: #324531;
+  color: #fdfdfb;
+  padding: 1rem 1.5rem;
+  font-size: 16px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #60825d;
+}
+
+/***********************************************/

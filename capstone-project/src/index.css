@@ -1,0 +1,70 @@
+html {
+  background-color: #fdfdfb;
+  background: url(../img/Plant1.jpg)-6% 106% no-repeat,
+    url(../img/Plant2.jpg) 143% 68% no-repeat,
+    url(../img/Plant5.jpg) -51% 45% no-repeat,
+    url(../img/Plant6.jpg) 130% 20% no-repeat;
+
+  background-size: 45vw auto;
+  background-attachment: fixed;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.logo {
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Serif", serif;
+}
+
+.homepage-header {
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Serif", serif;
+  font-family: "Titillium Web", sans-serif;
+}
+
+/* styles.css */
+.container {
+  /* display: flex; */
+  max-width: 12rem;
+  margin: 0 auto;
+}
+
+.header {
+  /* Add your header styles here */
+  /* For example, you can set a background color and padding */
+}
+
+.nav {
+  /* Add your nav styles here */
+  /* For example, you can set a background color and padding */
+  background-color: #555;
+  padding: 10px;
+}
+
+.rightLinks {
+  /* Add your ul styles here */
+  /* For example, you can set list-style-type to none */
+  list-style-type: none;
+  padding: 0rem 2rem 2rem 2rem;
+  margin: 0;
+}
+
+.rightLinkItems {
+  /* Add your li styles here */
+  /* For example, you can add some spacing and styling */
+  color: Black;
+  margin-bottom: 0.5rem;
+  /* display: inline-block; */
+}
