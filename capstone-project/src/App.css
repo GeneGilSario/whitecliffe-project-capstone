@@ -8,6 +8,7 @@
   margin: 0 auto;
   margin-bottom: 4rem;
 }
+
 .logo {
   font-weight: 600;
   font-size: 3rem;
@@ -38,8 +39,8 @@
 footer {
   background-color: #324531;
   color: white;
-  /* position: fixed;
-  bottom: 0; */
+  position: relative;
+  bottom: 0;
   width: 100%;
 }
 
@@ -53,6 +54,31 @@ footer {
 }
 
 /***********************************************/
+.homepage-image {
+  width: 50vw;
+  height: auto;
+  position: fixed;
+  top: 77%;
+  left: -9%;
+  z-index: -1;
+}
+.homepage-image-2 {
+  width: 50vw;
+  height: auto;
+  position: fixed;
+  top: 23%;
+  left: -23%;
+  z-index: -1;
+}
+
+.homepage-image-3 {
+  width: 50vw;
+  height: auto;
+  position: fixed;
+  top: 45%;
+  left: 89%;
+  z-index: -1;
+}
 
 .homepage-container {
   margin-bottom: 6rem;
@@ -73,16 +99,18 @@ footer {
   line-height: 1.75rem;
 }
 
-.homepage-textcolour {
+.homepage-textcolour,
+.product-textcolour {
   color: #60825d;
 }
 
-.homepage-textcolour-contrast {
+.homepage-textcolour-contrast,
+.product-textcolour-contrast {
   color: #324531;
 }
 
-button {
-  background-color: #324531;
+.homepage-button {
+  background-color: #60825d;
   color: #fdfdfb;
   padding: 1rem 1.5rem;
   font-size: 16px;
@@ -93,8 +121,8 @@ button {
   transition: background-color 0.3s ease;
 }
 
-button:hover {
-  background-color: #60825d;
+.homepage-button:hover {
+  background-color: #324531;
 }
 
 /***********************************************/

@@ -1,12 +1,5 @@
-html {
-  background-color: #fdfdfb;
-  background: url(../img/Plant1.jpg)-6% 106% no-repeat,
-    url(../img/Plant2.jpg) 143% 68% no-repeat,
-    url(../img/Plant5.jpg) -51% 45% no-repeat,
-    url(../img/Plant6.jpg) 130% 20% no-repeat;
-
-  background-size: 45vw auto;
-  background-attachment: fixed;
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -28,7 +21,8 @@ code {
   font-family: "Noto Serif", serif;
 }
 
-.homepage-header {
+.homepage-header,
+.products-header {
   font-family: "Lato", sans-serif;
   font-family: "Noto Serif", serif;
   font-family: "Titillium Web", sans-serif;
@@ -41,14 +35,7 @@ code {
   margin: 0 auto;
 }
 
-.header {
-  /* Add your header styles here */
-  /* For example, you can set a background color and padding */
-}
-
 .nav {
-  /* Add your nav styles here */
-  /* For example, you can set a background color and padding */
   background-color: #555;
   padding: 10px;
 }

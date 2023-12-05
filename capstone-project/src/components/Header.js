@@ -9,8 +9,12 @@ const Header = () => {
         </header>
         <nav>
           <ul className="rightLinks container-item">
-            <li className="rightLinkItems space-item">Home</li>
-            <li className="rightLinkItems space-item">Products</li>
+            <li className="rightLinkItems space-item">
+              <NavLink to="/">Home</NavLink>
+            </li>
+            <li className="rightLinkItems space-item">
+              <NavLink to="/products">Products</NavLink>
+            </li>
             <li className="rightLinkItems space-item">Plant Care</li>
             <li className="rightLinkItems space-item">Contact</li>
           </ul>
