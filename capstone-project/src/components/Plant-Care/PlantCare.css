@@ -1,0 +1,106 @@
+.plantcare-header {
+  font-size: 2.1rem;
+  font-weight: 600;
+  padding: 0rem 1.75rem 0rem 1.75rem;
+  letter-spacing: -0.18rem;
+  word-spacing: 0.5rem;
+  margin-bottom: 4rem;
+}
+
+.plantcare-card {
+  border: solid 1px #d0d0d0;
+  background: white;
+  max-width: 18rem;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+.plantcare-image {
+  width: 80vw;
+  height: auto;
+  object-fit: cover;
+  border: 0;
+  padding-top: 1rem;
+}
+
+.plantcare-margin {
+  margin: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.plantcare-grid {
+  display: grid;
+  grid-template-rows: 9rem 15rem 3rem;
+}
+
+.plantcare-header-1,
+.plantcare-text-1 {
+  text-align: left;
+}
+
+.plantcare-text-1 {
+  font-size: 1.1rem;
+  line-height: 1.75rem;
+  margin: 1rem;
+}
+
+.plantcare-header-1 {
+  color: #324531;
+  margin: 1rem;
+  margin-top: 0.75rem;
+}
+
+.button-left {
+  margin-right: 8.5rem;
+  margin-left: 1rem;
+}
+
+@media only screen and (min-width: 48rem) {
+  .plantcare-image {
+    width: 31vw;
+  }
+
+  .plantcare-grid-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .plantcare-header {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 90rem) {
+  .plantcare-image {
+    width: 27vw;
+  }
+  .plantcare-grid-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0rem 10rem;
+  }
+  .plantcare-card {
+    max-width: 30rem;
+  }
+
+  .plantcare-header-1 {
+    margin: 2rem;
+  }
+
+  .plantcare-text-1 {
+    margin: 2rem;
+  }
+
+  .button-left {
+    margin-right: 16.5rem;
+    margin-left: 2rem;
+  }
+}
+
+@media only screen and (min-width: 160rem) {
+  .plantcare-image {
+    width: 15vw;
+    object-fit: contain;
+  }
+}

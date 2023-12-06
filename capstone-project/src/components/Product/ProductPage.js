@@ -21,7 +21,7 @@ const ProductPage = () => {
         <span className="product-textcolour">green</span>{" "}
         <span className="product-textcolour-contrast">world</span>
       </h1>
-      <section>
+      <section className="product-section-padding">
         <div className="product-card">
           <img
             src={Plant1}
@@ -51,7 +51,7 @@ const ProductPage = () => {
         </div>
         <div className="product-card">
           <img
-            src={Plant1}
+            src={Plant2}
             alt="Plant-Product-2"
             className="product-image"
           ></img>

@@ -77,3 +77,51 @@
 .product-button:hover {
   background-color: #324531;
 }
+
+@media only screen and (min-width: 48rem) {
+  .product-section-padding {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .product-image {
+    width: 43vw;
+  }
+  .product-details {
+    margin: 1.3rem 2rem 3.5rem 2rem;
+  }
+  .products-header {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 90rem) {
+  .product-section-padding {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .product-image {
+    width: 25vw;
+  }
+  .product-details {
+    margin: 1.3rem 4rem 3.5rem 4rem;
+  }
+  .products-header {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 90rem) {
+  .product-section-padding {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .product-image {
+    width: 25vw;
+  }
+  .product-details {
+    margin: 1.3rem 6rem 3.5rem 6rem;
+  }
+  .products-header {
+    font-size: 2.5rem;
+  }
+}
