@@ -40,7 +40,6 @@ const ProductPage = () => {
                 id="quantity"
                 name="quantity"
                 value={quantity}
-                max={5}
                 min={1}
                 onChange={handleQuantityChange}
                 className="product-input"
